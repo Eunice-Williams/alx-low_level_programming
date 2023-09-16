@@ -6,28 +6,28 @@
  */
 int main(void)
 {
-	int n1 = '0';
-	int n2 = '0';
-	int n3 = '0';
-	int n4 = '0';
+	int a = '0';
+	int b = '0';
+	int c = '0';
+	int d = '0';
 
-	while (n1 <= '9')
+	while (a <= '9')
 	{
-		while (n2 <= '9')
+		while (b <= '9')
 		{
-			while (n3 <= '9')
+			while (c <= '9')
 			{
-				while (n4 <= '9')
+				while (d <= '9')
 				{
-					if (((n3 + n4) > (n1 + n2) && n3 >= n1) || n1 < n3)
+					if (((c + d) > (a + b) && c >= a) || a < c)
 					{
-						putchar(n1);
-						putchar(n2);
+						putchar(a);
+						putchar(b);
 						putchar(' ');
-						putchar(n3);
-						putchar(n4);
+						putchar(c);
+						putchar(d);
 
-				if (n1 + n2 + n3 + n4 == '179' && n1 == '9')
+				if (a + b + c + d == '179' && a == '9')
 				{
 					break;
 				}
@@ -38,11 +38,11 @@ int main(void)
 				}
 					}
 				}
-				n3++;
+				c++;
 			}
-			n2++;
+			b++;
 		}
-		n1++;
+		a++;
 	}
 	putchar('\n');
 	return (0);
