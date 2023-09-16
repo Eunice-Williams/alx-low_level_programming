@@ -11,13 +11,13 @@ int main(void)
 	int n_3 = '0';
 	int n_4 = '0';
 
-	while (n_1 < '9')
+	while (n_1 <= '9')
 	{
-		while (n_2 < '9')
+		while (n_2 <= '9')
 		{
-			while (n_3 < '9')
+			while (n_3 <= '9')
 			{
-				while (n_4 < '9')
+				while (n_4 <= '9')
 				{
 					if (((n_3 + n_4) > (n_1 + n_2) && n_3 >= n_1) || n_1 < n_3)
 					{
