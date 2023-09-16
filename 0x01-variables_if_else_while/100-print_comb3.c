@@ -13,7 +13,7 @@ int main(void)
 	{
 		while (y <= '9')
 		{
-			if (!(x > y) || (x == y))
+			if (!(x > y) || x == y)
 			{
 				putchar(x);
 				putchar(y);
@@ -27,10 +27,10 @@ int main(void)
 					putchar(' ');
 				}
 			}
-			++y;
+			y++;
 		}
 		y = '0';
-		++x;
+		x++;
 	}
 return (0);
 }
