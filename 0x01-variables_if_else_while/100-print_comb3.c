@@ -27,9 +27,10 @@ int main(void)
 					putchar(' ');
 				}
 			}
+			x = '0';
 			y++;
 		}
-		/*y = '0';*/
+		y = '0'
 		x++;
 	}
 return (0);
