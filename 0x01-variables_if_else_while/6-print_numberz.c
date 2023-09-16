@@ -13,7 +13,7 @@ int main(void)
 		putchar((digits % 10) + '0');
 		digit++;
 	}
-	putchar('\n');
+	putchar("\n");
 	return (0);
 }
 
