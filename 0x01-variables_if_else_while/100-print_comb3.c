@@ -32,6 +32,6 @@ int main(void)
 		y = '0';
 		++x;
 	}
-	return (0);
+return (0);
 }
 
