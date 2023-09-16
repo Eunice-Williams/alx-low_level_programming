@@ -28,16 +28,15 @@ int main(void)
 						putchar(',');
 						putchar(' ');
 					}
-					num_3++;
 				}
-				num_2++;
+				num_3++;
 			}
-			num_1++;
-			num_2 = '0';
-
+			num_2++;
 		}
-		putchar('\n');
-		return (0);
+		num_1++;
+		num_2 = '0';
 	}
-
+	putchar('\n');
+	return (0);
+}
 
