@@ -27,7 +27,7 @@ int main(void)
 						putchar(n_3);
 						putchar(n_4);
 
-				if (n_1 + n_2 + n_3 + n_4 == '17' && n_1 == '9')
+				if (n_1 + n_2 + n_3 + n_4 == '179' && n_1 == '9')
 				{
 					break;
 				}
