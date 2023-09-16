@@ -27,7 +27,7 @@ int main(void)
 						putchar(c);
 						putchar(d);
 
-				if (a + b + c + d == '179' && a == '9')
+				if ((a + b + c + d) == '179' && a == '9')
 				{
 					break;
 				}
