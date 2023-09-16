@@ -4,11 +4,17 @@
  *
  * Return: 0 always (success)
  */
-intmain(void)
+int main(void)
 {
-	int i;
+	int small_letters;
 
-	for (i = 'a'; i < 'z' ; i++)
-		printf(i);
+	small_letters = 'a';
+
+	if (small_letters <= 'z')
+		putchar(small_letters);
+	small_letters++;
+
+	putchar("\n");
 	return (0);
 }
+
