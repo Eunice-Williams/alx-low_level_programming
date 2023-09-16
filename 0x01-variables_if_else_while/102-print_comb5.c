@@ -38,11 +38,11 @@ int main(void)
 				}
 					}
 				}
-				num_3++;
+				n_3++;
 			}
-			num_2++;
+			n_2++;
 		}
-		num_1++;
+		n_1++;
 	}
 	putchar('\n');
 	return (0);
