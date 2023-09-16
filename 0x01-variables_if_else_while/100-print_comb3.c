@@ -9,30 +9,24 @@ int main(void)
 	int x = '0';
 	int y = '1';
 
-	while (x <= '9')
+	while (x < '9')
 	{
-		while (y <= '9')
+		while (y < '10')
 		{
-			if (!(x > y)  ||  x == y)
+			putchar('0' + x);
+			putchar('0' + y);
+
+			if (x != '8' || y != '9')
 			{
-				putchar(x);
-				putchar(y);
-				if (x == '8' && y == '9')
-				{
-					putchar('\n');
-				}
-				else
-				{
-					putchar(',');
-					putchar(' ');
-				}
+				putchar(',');
+				putchar(' ');
 			}
 			y++;
 		}
-		y = '0';
-		x++;
+		x++
+		y = x + 1;
 	}
-return (0);
+	putchar('\n');
+	return (0);
 }
-
 
