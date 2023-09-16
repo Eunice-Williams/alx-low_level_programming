@@ -29,7 +29,7 @@ int main(void)
 			}
 			y++;
 		}
-		y = '0';
+		/*y = '0';*/
 		x++;
 	}
 return (0);
