@@ -10,10 +10,10 @@ int main(void)
 
 	while (digit < 10)
 	{
-		putchar(digits);
+		putchar((digits % 10) + '0');
 		digit++;
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
 
