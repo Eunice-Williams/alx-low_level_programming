@@ -10,11 +10,11 @@ int main(void)
 
 	small_letters = 'a';
 
-	if (small_letters <= 'z')
+	while (small_letters <= 'z')
 		putchar(small_letters);
 	small_letters++;
 
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
 
