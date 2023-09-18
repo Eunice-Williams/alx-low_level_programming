@@ -6,7 +6,7 @@
  * @b: swaps and stores address of a
  * Return: 0 always (success)
  */
-void swap_int(int *a, int *b);
+void swap_int(int *a, int *b)
 {
 	int change;
 
