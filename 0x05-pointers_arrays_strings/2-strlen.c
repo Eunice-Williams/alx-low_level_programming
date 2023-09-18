@@ -4,7 +4,7 @@
  * @s: - string to be checked
  * Return: length of string
  */
-int int _strlen(char *s)
+int _strlen(char *s)
 {
 	int length_of_string = 0;
 
